@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
 public class Main {
     public static void main(String[] args) {
         try {
-            Employee employee = new Employee();
+            Employee employee = new Employee(0,"",0,0);
             FileReader fileReader = new FileReader("src/main/resources/employees.csv");
             BufferedReader bufReader = new BufferedReader(fileReader);
             bufReader.readLine(); // This skips the first line, please don't remove again
