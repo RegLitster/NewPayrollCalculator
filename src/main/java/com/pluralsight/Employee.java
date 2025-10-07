@@ -12,6 +12,9 @@ public class Employee {
         this.hoursWorked = 0;
         this.payRate = 0;
     }
+    public double getGrossPay(){
+        return hoursWorked*payRate;
+    }
 
     public int getEmployeeId() {
         return employeeId;
